@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,700&family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'DM Sans', sans-serif;
+    /* background-color: black; */
+    
+}
+#layout2{
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 3fr 6fr 1fr;
+    grid-template-areas: 
+    "h m"
+    "h c"
+    "f f";
+}
+#a2{
+    background-color: black;
+    grid-area: h;
+    /* white-space: wrap;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 80%; 
+    overflow: scroll; */
+    /* flex-wrap: wrap; */
+    
+}
+#b2{
+    background-color: red;
+    grid-area: m;
+    /* position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 90%;
+    left: 20%;
+    flex-wrap: wrap; */
+    /* overflow: scroll; */
+    /* left: 20%; */
+}
+#c2{
+    /* background: linear-gradient(to bottom, #212121, #161616, #303030 99%); */
+    background-color: blue;
+    grid-area: c;
+    /* position: sticky;
+    right: 0;
+    left: 20%;
+     top: 1%; 
+     bottom:1%; */
+     /* flex-wrap: wrap;
+     padding-inline: 50px;
+     */
+}
+#d2{
+    background-color: #181818;
+    grid-area: f;
+    /* position: fixed;
+    bottom: 0;
+    left:0;
+    right: 0;
+    top: 90%;
+     padding-bottom: 90px; */
+    /* margin-bottom: 90px; */
+    /* flex-wrap: wrap; */
+    /* overflow-x: auto; */
+}
+
+.side-nav-bar{
+    padding-left: 45px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.14px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* position: sticky; */
+}
+
+.spotify-logo img{
+    width: 73%;
+    height: 4%;
+    margin-top: 39.29px;
+    margin-bottom:20px;
+}
+
+.left{
+    margin-block: 20px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+li{
+    margin-bottom: 5px;
+}
+img{
+    margin-right: 20px;
+    
+}
+a:hover{
+    color: green;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.right-top-bar{
+    display: flex;
+}
