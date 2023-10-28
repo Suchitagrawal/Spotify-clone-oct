@@ -4,6 +4,7 @@
     padding: 0;
     font-family:'DM Sans', sans-serif;
     color: white;
+    /* overflow: hidden; */
     /* background-color: black; */
     
 }
@@ -21,25 +22,25 @@
 #a2{
     background-color: black;
     grid-area: h;
-    /* white-space: wrap;
+    white-space: wrap;
     position: fixed;
     left: 0;
     top: 0;
     bottom: 0;
     right: 80%; 
-    overflow: scroll; */
+    overflow: scroll;
     /* flex-wrap: wrap; */
     
 }
 #b2{
     background-color: rgba(125, 152, 145, 1);
     grid-area: m;
-    /* position: sticky;
+    /* position: fixed; */
     top: 0;
     right: 0;
     bottom: 90%;
     left: 20%;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* overflow: scroll; */
     /* left: 20%; */
 }
@@ -47,11 +48,11 @@
     /* background: linear-gradient(to bottom, #212121, #161616, #303030 99%); */
     background-color: black;
     grid-area: c;
-    /* position: sticky;
+     position: sticky;
     right: 0;
     left: 20%;
      top: 1%; 
-     bottom:1%; */
+     bottom:1%;
      /* flex-wrap: wrap;
      padding-inline: 50px;
      */
@@ -59,12 +60,12 @@
 #d2{
     background-color: #181818;
     grid-area: f;
-    /* position: fixed;
+     position: fixed;
     bottom: 0;
     left:0;
     right: 0;
     top: 90%;
-     padding-bottom: 90px; */
+    padding-bottom: 90px;
     /* margin-bottom: 90px; */
     /* flex-wrap: wrap; */
     /* overflow-x: auto; */
@@ -129,4 +130,58 @@ a{
 
 .playlist-item2{
     justify-content: space-between;
+}
+.playlist-item3-a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.music-player-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    overflow: scroll;
+    /* flex-wrap: wrap; */
+}
+.down-music-player{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.artist-title-section{
+    display: flex;
+    align-items: center;
+}
+.right-options{
+    display: flex;
+    align-items: center;
+}
+.right-options button{
+    background-color: #181818;
+    border-style: none;
+    cursor: pointer;
+}
+.music-player button{
+    background-color: #181818;
+    border-style: none;
+    color: white;
+    /* cursor: pointer; */
+}
+.music-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music-player-1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.music-player-1 p{
+    color: white;
+    margin-right: 10px;
 }
