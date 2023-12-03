@@ -39,7 +39,7 @@ body{
 #b2{
     background-color: rgba(125, 152, 145, 1);
     grid-area: m;
-    /* position: absolute; */
+    position: sticky;
     top: 0;
     right: 0;
     bottom: 90%;
@@ -52,6 +52,7 @@ body{
     /* background: linear-gradient(to bottom, #212121, #161616, #303030 99%); */
     background-color: black;
     grid-area: c;
+    z-index: 1;
      /* position: sticky;
     right: 0;
     left: 20%;
@@ -63,6 +64,7 @@ body{
 #d2{
     background-color: #181818;
     grid-area: f;
+    z-index: 2;
     position: fixed;
     bottom: 0;
     left:0;
@@ -85,6 +87,7 @@ body{
     color: white;
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
     /* position: sticky; */
 }
 
@@ -99,8 +102,8 @@ body{
     margin-block: 10px;
 }
 .left ul li a img{
-    height: 25px;
-    width: 25px;
+    height: 1.2rem;
+    width: 1.2rem;
 }
 
 ul{
@@ -109,6 +112,14 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     
+}
+.left-bottom img{
+    width: 10rem;
+    position: absolute;
+    bottom: 100px;
+
+    /* heigth: 10rem; */
+
 }
 
 li{
