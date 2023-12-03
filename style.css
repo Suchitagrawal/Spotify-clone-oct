@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family:'DM Sans', sans-serif;
+    box-sizing: border-box;
     /* background-color: black; */
     
 }
@@ -299,10 +300,10 @@ h4 , h3{
     margin-right: 10px;
 }
 
-.right-options button img{
+/* .right-options button img{
     width: 1.2rem;
     height: 1.1rem;
-}
+} */
 .music-player-option button img:hover{
     /* height: 20px; */
     /* width: 20px; */
